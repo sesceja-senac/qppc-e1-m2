@@ -1,0 +1,758 @@
+@font-face {
+  font-family: frank;
+  src: url(../theme/fonts/optf.otf);
+}
+
+.break-all {
+  word-break: break-all;
+}
+
+.icone.refletir::before {
+  background-image: url(../theme/assets/ico_forum.png);
+  width: 90px;
+}
+
+.bt-fig17 {
+  background-image: url(../theme/assets/bt01.png);
+  width: 351px;
+  height: 351px;
+  border: none;
+  margin: 10px;
+  padding: 10px;
+}
+
+.bt-q02 {
+  background-image: url(../theme/assets/bt03.png);
+  width: 351px;
+  height: 351px;
+  border: none;
+  margin: 10px;
+  padding: 10px;
+}
+
+.bt-fig18 {
+  background-image: url(../theme/assets/bt02.png);
+  width: 351px;
+  height: 351px;
+  border: none;
+  margin: 10px;
+  padding: 10px;
+}
+
+.bt-fig17:hover {
+  transform: scale(1.1);
+  border: none;
+}
+
+.bt-fig18:hover {
+  transform: scale(1.1);
+  border: none;
+}
+
+.bt-q02:hover {
+  transform: scale(1.1);
+  border: none;
+}
+
+.painel1 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  padding: 10px;
+}
+
+.painel2 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  padding: 10px;
+}
+
+.bg-sesc {
+  background-image: url(../img/bg/background.jpg);
+  background-attachment: fixed;
+  background-position: left top;
+  background-repeat: no-repeat;
+}
+
+.painel-info1 {
+  display: flex;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.painel-info2 {
+  display: flex;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.borda1 {
+  margin: 10px;
+  padding: 30px;
+}
+
+.borda2 {
+  border: 3px dashed #f49425;
+  padding: 30px;
+}
+
+.info_laranja {
+  border: 3px solid #f49425;
+  background-color: #fff;
+  border-radius: 30px;
+  height: 100%;
+  width: 100%;
+  padding: 30px;
+  margin: 10px;
+  color: #000;
+}
+
+.info_verde {
+  border: 3px solid #6e9994;
+  background-color: #fff;
+  border-radius: 30px;
+  height: 100%;
+  width: 100%;
+  padding: 30px;
+  margin: 10px;
+  color: #000;
+}
+
+.bg-podcast {
+  background: url('../theme/assets/podcast.png') no-repeat;
+  max-width: 811px;
+  height: 268px;
+  background-size: contain;
+  bottom: 3%;
+  margin: auto;
+}
+
+marker {
+  padding: 10px;
+  background-color: yellow;
+  margin: 20px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: frank;
+  color: #214d50;
+  margin-bottom: 40px;
+}
+
+.container {
+  background-color: transparent;
+}
+
+figure {
+  text-align: center;
+  max-width: 100%;
+}
+
+figcaption {
+  text-align: center;
+}
+
+header.theme {
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.citacao {
+  background-color: #113f58;
+  color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  margin-left: 10vw;
+  padding-left: 2vw;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.caixa.cinza {
+  -moz-border-image: url(../img/border_pattern_transparent.png) 24 27 25 26 repeat;
+  -webkit-border-image: url(../img/border_pattern_transparent.png) 24 27 25 26 repeat;
+  -o-border-image: url(../img/border_pattern_transparent.png) 24 27 25 26 repeat;
+  border-image: url(../img/border_pattern_transparent.png) 24 27 25 26 fill repeat;
+  background-color: #f7f7f7;
+}
+
+.cinza.icone::before {
+  background-color: #f7f7f7;
+  top: -20px;
+  left: -26px;
+}
+
+h3 {
+  font-size: 1.6rem;
+}
+
+h4 {
+  font-size: 1.3rem
+}
+
+h5 {
+  font-size: 1.2rem
+}
+
+.modal-title {
+  color: white;
+}
+
+a.btn-sesc:hover {
+  color: #00838D
+}
+
+a.btn-sesc:active {
+  color: white
+}
+
+a[data-bs-toggle="tooltip"] {
+  text-decoration: none;
+  border-bottom: 2px dashed #214d50;
+  color: #214d50;
+  font-weight: bolder;
+}
+
+/*menu no topo*/
+#menutop.navbar {
+  padding: 0;
+}
+
+#menutop.bg-light {
+  background: #e2e2e2;
+  border-bottom: 2px solid #a8a8a8;
+  border-top: 2px solid #bdbdbd;
+}
+
+/*menu*/
+#menutop .dropdown-menu {
+  background: #707070;
+  border-radius: 0;
+  padding: 20px 35px;
+  box-shadow: 4px 4px 0px rgba(187, 187, 187, 0.8);
+  left: -1px !important;
+  top: -2px !important;
+}
+
+#menutop .dropdown-menu a {
+  border-bottom: 1px solid #fff;
+  padding: 0;
+  padding-bottom: 10px;
+  margin-bottom: 12px;
+  color: #fff;
+}
+
+#menutop .dropdown-menu a:hover {
+  color: #fff;
+  background: none;
+  text-decoration: underline;
+}
+
+#menutop .dropdown-menu ul a i {
+  display: none;
+}
+
+#menutop .dropdown-menu ul a.ativo i {
+  display: inline;
+  margin-left: -15px;
+}
+
+#menutop .dropdown-menu li:last-child a {
+  border: none;
+}
+
+#menutop .bt-close {
+  position: absolute;
+  top: 0;
+  right: 0;
+  color: #fff;
+  background: none;
+  border: none;
+}
+
+#menutop .dropdown-menu ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#menutop .accordion-button i {
+  font-size: 20px;
+  margin: 0 10px;
+}
+
+#menutop .dropdown-toggle::after {
+  display: none;
+}
+
+#menutop .bg-light {
+  background: #e2e2e2;
+  border-bottom: 2px solid #a8a8a8;
+  border-top: 2px solid #bdbdbd;
+}
+
+#menutop .navbar-collapse {
+  background: none;
+}
+
+#menutop .nav-link i {
+  font-size: 25px;
+  color: #848383;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+
+#menutop .navbar-light .navbar-nav .nav-link {
+  padding: 5px 0;
+}
+
+/*fim do menu*/
+figure figcaption {
+  font-size: .9rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.slideitem {
+  border: 4px solid #00838D;
+  box-shadow: 2px 2px 4px 0 rgba(0, 0, 0, .2);
+}
+
+.botoes-modais-page1 {
+  margin: 20px;
+}
+
+.botoes-modais-page1 button {
+  border: 0;
+  background-color: transparent;
+}
+
+.botoes-modais-page1 button:hover {
+  transform: scale(1.08);
+}
+
+/*painel museu*/
+.infografico-museu {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.infografico-museu .bt-painel-museu {
+  position: absolute;
+  background-color: transparent;
+  border: transparent;
+}
+
+.infografico-museu .bt-painel-museu.quadro01 {
+  left: 29%;
+  top: 21%;
+  width: 18%;
+  height: 20%;
+}
+
+.infografico-museu .bt-painel-museu.quadro01:hover {
+  background-image: url(../theme/assets/painel_clicavel_hover23.png);
+  background-position: center top;
+  background-repeat: no-repeat;
+}
+
+.infografico-museu .bt-painel-museu.quadro02 {
+  left: 49%;
+  top: 21%;
+  width: 19%;
+  height: 20%;
+}
+
+.infografico-museu .bt-painel-museu.quadro02:hover {
+  background-image: url(../theme/assets/painel_clicavel_hover23.png);
+  background-position: center top;
+  background-repeat: no-repeat;
+}
+
+.infografico-museu .bt-painel-museu.quadro03 {
+  left: 7%;
+  top: 21%;
+  width: 19%;
+  height: 39%;
+}
+
+.infografico-museu .bt-painel-museu.quadro03:hover {
+  background-image: url(../theme/assets/painel_clicavel1_hover1.png);
+  background-position: center top;
+  background-repeat: no-repeat;
+}
+
+.infografico-museu .bt-painel-museu.quadro04 {
+  left: 30%;
+  top: 41%;
+  width: 24%;
+  height: 19%;
+}
+
+.infografico-museu .bt-painel-museu.quadro04:hover {
+  background-image: url(../theme/assets/painel_clicavel_hover56.png);
+  background-position: center top;
+  background-repeat: no-repeat;
+}
+
+.infografico-museu .bt-painel-museu.quadro05 {
+  left: 70%;
+  top: 21%;
+  width: 14%;
+  height: 20%;
+}
+
+.infografico-museu .bt-painel-museu.quadro05:hover {
+  background-image: url(../theme/assets/painel_clicavel_hover4.png);
+  background-position: center top;
+  background-repeat: no-repeat;
+}
+
+.infografico-museu .bt-painel-museu.quadro06 {
+  left: 58%;
+  top: 41%;
+  width: 24%;
+  height: 19%;
+}
+
+.infografico-museu .bt-painel-museu.quadro06:hover {
+  background-image: url(../theme/assets/painel_clicavel_hover56.png);
+  background-position: center top;
+  background-repeat: no-repeat;
+}
+
+.infografico-museu-mob {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px 15px rgba(0, 0, 0, .5) inset;
+}
+
+.bt-painel-museu-mob {
+  border: 0;
+  margin: 10px;
+  background-color: transparent;
+  position: relative;
+}
+
+.bt-painel-museu-mob:hover {
+  transform: scale(1.1);
+}
+
+.bt-painel-museu-mob:hover::before {
+  content: " ";
+  width: 90%;
+  left: 5%;
+  display: block;
+  height: 90%;
+  top: 5%;
+  position: absolute;
+  background-color: transparent;
+  box-shadow: 0 0 50px rgba(255, 255, 255, 0.705), inset 0 0 50px rgba(255, 255, 255, 0.705);
+  border-radius: 10px;
+}
+
+.caixa.pequena {
+  max-width: 400px;
+}
+
+.pagina>.container h4 {
+  margin-top: 25px;
+}
+
+.bt-quebracabeca {
+  max-width: 350px;
+  border: 0;
+  margin: 1.5rem auto;
+  display: block;
+  background-color: transparent;
+  padding: 0;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.bt-quebracabeca:hover {
+  transform: translateY(-4px) scale(1.1);
+  box-shadow: 0 6px 6px rgba(0, 0, 0, .2);
+}
+
+.infografico-mapaBrasil .info-botao {
+  background-color: transparent;
+  border: 0;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 301px;
+  height: Calc(301px * 244/301);
+  max-width: Calc(18em);
+  max-height: Calc(18em * 244/301);
+}
+
+.infografico-mapaBrasil .info-botao.bt02 {
+  background-image: url(../theme/assets/painel_clicavel_bot1.png);
+}
+
+.infografico-mapaBrasil .info-botao.bt02:hover {
+  background-image: url(../theme/assets/painel_clicavel_bot1_hover.png);
+}
+
+.infografico-mapaBrasil .info-botao.bt01 {
+  background-image: url(../theme/assets/painel_clicavel_bot2.png);
+}
+
+.infografico-mapaBrasil .info-botao.bt01:hover {
+  background-image: url(../theme/assets/painel_clicavel_bot2_hover.png);
+}
+
+.infografico-mapaBrasil .info-botao.bt04 {
+  background-image: url(../theme/assets/painel_clicavel_bot3.png);
+}
+
+.infografico-mapaBrasil .info-botao.bt04:hover {
+  background-image: url(../theme/assets/painel_clicavel_bot3_hover.png);
+}
+
+.infografico-mapaBrasil .info-botao.bt05 {
+  background-image: url(../theme/assets/painel_clicavel_bot4.png);
+}
+
+.infografico-mapaBrasil .info-botao.bt05:hover {
+  background-image: url(../theme/assets/painel_clicavel_bot4_hover.png);
+}
+
+.infografico-mapaBrasil .info-botao.bt03 {
+  background-image: url(../theme/assets/painel_clicavel_bot5.png);
+}
+
+.infografico-mapaBrasil .info-botao.bt03:hover {
+  background-image: url(../theme/assets/painel_clicavel_bot5_hover.png);
+}
+
+.infografico-mapaBrasil .info-botao.bt01 {
+  top: 18%;
+  left: 65%;
+}
+
+.infografico-mapaBrasil .info-botao.bt02 {
+  top: 0;
+  left: 42%;
+}
+
+.infografico-mapaBrasil .info-botao.bt03 {
+  bottom: 48%;
+  left: 22%;
+}
+
+.infografico-mapaBrasil .info-botao.bt04 {
+  bottom: 25%;
+  left: 56%;
+}
+
+.infografico-mapaBrasil .info-botao.bt05 {
+  bottom: 10%;
+  left: 34%;
+}
+
+.botoes-quadrinho {
+  background-image: url(../theme/assets/2_ilustra_botoes_clicaveis.png);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 400px;
+  width: 450px;
+  display: block;
+  margin: 2em auto;
+  position: relative;
+}
+
+.botoes-quadrinho button {
+  position: absolute;
+  width: 25%;
+  height: 25%;
+  background-color: transparent;
+  border: 0;
+  background-size: contain;
+  background-position: center left;
+}
+
+.botoes-quadrinho button:hover {
+  border-radius: 50%;
+  box-shadow: 0 0 130px yellow, 0 0 40px inset rgba(255, 255, 0, 0.575);
+}
+
+.botoes-quadrinho .bt-q01 {
+  left: 5%;
+  top: 13%;
+}
+.bto-navegacao {
+  border: 2px solid #00838D;
+  padding: 6px 15px;
+  color: #00838D;
+  font-weight: bold;
+  font-size: .8rem;
+  background-color: white;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, .3);
+  display: inline-block;
+  padding: 12px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.bto-navegacao:hover {
+  transform: translateY(-3px);
+  background-color: #E5FDFF;
+  box-shadow: 0 6px 6px rgba(0, 0, 0, .3);
+}
+/* .botoes-quadrinho .bt-q02 {
+  right: 8%;
+  top: 17%;
+} */
+
+@media screen and (max-width:993px) {
+  .infografico-mapaBrasil {
+    background-image: none;
+    min-height: auto;
+  }
+
+  .infografico-mapaBrasil .info-botao.bt01,
+  .infografico-mapaBrasil .info-botao.bt02,
+  .infografico-mapaBrasil .info-botao.bt03,
+  .infografico-mapaBrasil .info-botao.bt04,
+  .infografico-mapaBrasil .info-botao.bt05 {
+    top: initial;
+    bottom: initial;
+    left: initial;
+    position: relative;
+  }
+}
+
+@media screen and (max-width: 768px) {
+
+  .bg-podcast {
+    background-position-y: 110px;
+    background-color: #007981;
+    border-radius: 10px;
+  }
+
+  .painel-info1 {
+    display: flex;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .painel-info2 {
+    display: flex;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .painel1 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
+  }
+
+  .painel2 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
+  }
+}
+
+@media screen and (max-width:500px) {
+  .botoes-quadrinho {
+    background-image: url(../theme/assets/2_ilustra_botoes_clicaveis.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: Calc(400px * .7);
+    width: Calc(450px * .7);
+    display: block;
+    margin: 2em auto;
+    position: relative;
+  }
+
+  #menutop .nav-link span {
+    width: 60%;
+    display: inline-block;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    vertical-align: middle;
+  }
+
+  a.btn-sesc {
+    display: inline-block;
+    margin-bottom: 5px;
+  }
+
+  #menutop .dropdown-menu {
+    left: -28px !important;
+    width: 97vw !important
+  }
+
+  #menutop .dropdown-item {
+    white-space: initial !important;
+  }
+  .sesc-audio-player .botoes {
+    margin-left: 0%;
+}
+}
+
+#slideshow-figuras18e19 .carousel-item {
+  padding-left: 10px !important;
+  padding-right: 10px !important;
+}
+
+@media screen and (max-width:1280px) {
+  header#topo img {
+    visibility: hidden;
+  }
+
+  header.sesc {
+    background-image: url(../img/cabecalho/cabecalho.png);
+    background-size: cover;
+  }
+}
+
+@media screen and (max-width:990px) {
+  header.sesc {
+    background-image: url(../img/cabecalho/cabecalho_mob.png);
+  }
+}

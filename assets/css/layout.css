@@ -74,23 +74,26 @@ p{
 }
 
 .caixa{
-    border-style: solid;
-    border-width: 24px 27px 25px 26px;
-    -moz-border-image: url(../img/border_pattern.png) 24 27 25 26 repeat;
+    /* border-style: solid; */
+    /* border-width: 24px 27px 25px 26px; */
+    /* -moz-border-image: url(../img/border_pattern.png) 24 27 25 26 repeat;
     -webkit-border-image: url(../img/border_pattern.png) 24 27 25 26 repeat;
     -o-border-image: url(../img/border_pattern.png) 24 27 25 26 repeat;
     border-image: url(../img/border_pattern.png) 24 27 25 26 fill repeat;
-    padding: 30px;
+    padding: 30px; */
 }
 
 .caixa.icone{
     padding: 40px;
-    padding-left: 60px;
+    padding-left: 90px;
     position: relative;
-    margin-left: 20px; 
+    margin-left: 20px;
     margin-top: 60px;
     margin-bottom: 30px;
-    color: #00838D;  
+    
+    background-color: #00838D;
+    color: #fff;
+    border-radius: 10px;
 }
 
 

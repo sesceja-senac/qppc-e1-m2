@@ -146,7 +146,7 @@ function pagination ()
   {
     for(var i = 1; i <= countPages(); i++)
     {
-    var li = '<li> <a href="index.html?page=' + i + '" class="btn-sesc mx-1 d-inline-block">' + i + '</a> </li>';
+    var li = '<li> <a href="conteudo.html?page=' + i + '" class="btn-sesc mx-1 d-inline-block">' + i + '</a> </li>';
       $("ul.pagination").append(li);
     }
     $("ul.pagination").css("display","");

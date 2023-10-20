@@ -1,13 +1,13 @@
 .icone::before{
     display: block;
     content: "";
-    width: 83px;
+    width: 116px;
     height: 115px;
     background-color: white;
     position: absolute;
     top:-20px;
     left: -30px;   
-    background-repeat: no-repeat;  
+    background-repeat: no-repeat; 
 }
 
 .icone.dica::before{
@@ -26,7 +26,9 @@
 }
 
 .icone.saiba-mais::before{
+    left: -35px !important;
     background-image: url(../img/ico-saiba.png);
+    background-color: transparent;
 }
 
 .icone.atencao::before{

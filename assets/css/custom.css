@@ -2,7 +2,64 @@
   font-family: frank;
   src: url(../theme/fonts/optf.otf);
 }
+/* referemcias */
 
+.estiloReferencias {
+  background-image: url(../../assets/theme/assets/referencias.jpg);
+  background-size: 100%;
+  padding-bottom: 100px;
+}
+.estiloReferencias .container {
+  padding-bottom: 50px;
+  
+  background-color: white;
+  
+}
+.header-imprimir {
+  height: 0;
+}
+/*  */
+/* footer numerado */
+.numFooter {
+  background-color: transparent !important;
+  margin-top: -100px;
+  z-index: 100;
+  display: block;
+  position: absolute;
+  left: 0;
+  right: 0;
+}
+.numFooter ul {
+  width: 345px;
+  background-color: transparent;
+  margin: 0 auto;
+}
+.pagination .active {
+  transform: translateY(-8px);
+  pointer-events: none;
+}
+footer li.active a {
+  color: #fff !important;
+  background-color: #00838D !important;
+}
+a.btn-sesc {
+  text-decoration: none;
+}
+
+.pagina>.container  {
+  padding-top: 80px;
+  padding-bottom: 130px;
+}
+footer li:not(.active) a {
+  color: #00838D;
+  background-color: #fff;
+}
+
+footer li a:visited {
+  color: #fff;
+  background-color: #cecece;
+}
+/* footer numero */
 .break-all {
   word-break: break-all;
 }
@@ -10,6 +67,7 @@
 .icone.refletir::before {
   background-image: url(../theme/assets/ico_forum.png);
   width: 90px;
+  background-color: transparent;
 }
 
 .bt-fig17 {
@@ -189,16 +247,17 @@ header.theme {
   margin-bottom: 40px;
 }
 
-.caixa.cinza {
+/* .caixa.cinza {
   -moz-border-image: url(../img/border_pattern_transparent.png) 24 27 25 26 repeat;
   -webkit-border-image: url(../img/border_pattern_transparent.png) 24 27 25 26 repeat;
   -o-border-image: url(../img/border_pattern_transparent.png) 24 27 25 26 repeat;
   border-image: url(../img/border_pattern_transparent.png) 24 27 25 26 fill repeat;
   background-color: #f7f7f7;
-}
+} */
 
 .cinza.icone::before {
-  background-color: #f7f7f7;
+  
+  background-color: transparent;
   top: -20px;
   left: -26px;
 }

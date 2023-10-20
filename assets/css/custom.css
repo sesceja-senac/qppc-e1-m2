@@ -6,7 +6,7 @@
 
 .estiloReferencias {
   background-image: url(../../assets/theme/assets/referencias.jpg);
-  background-size: 100%;
+  background-size: 100% 100%;
   padding-bottom: 100px;
 }
 .estiloReferencias .container {
@@ -54,7 +54,13 @@ footer li:not(.active) a {
   color: #00838D;
   background-color: #fff;
 }
-
+.sesc-audio-player {
+  background-color: transparent;
+  color: white;
+  padding: 8px 20px;
+  line-height: 0;
+  margin: 6% 0 !important ;
+}
 footer li a:visited {
   color: #fff;
   background-color: #cecece;
@@ -66,10 +72,9 @@ footer li a:visited {
 
 .icone.refletir::before {
   background-image: url(../theme/assets/ico_forum.png);
-  width: 90px;
+  width: 110px;
   background-color: transparent;
 }
-
 .bt-fig17 {
   background-image: url(../theme/assets/bt01.png);
   width: 351px;

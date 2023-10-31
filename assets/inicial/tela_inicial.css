@@ -12,9 +12,9 @@
 
 #btIniciar {
   position: absolute;
-  left: 37%;
+  left: 41%;
   z-index: 29;
-  top: 45% !important;
+  top: 50% !important;
 }
 #btIniciar:hover {
   transform: scale(1.1);
@@ -229,6 +229,12 @@
   .imgCentro {
     margin-top: 7%;
   }
+  #btIniciar {
+    position: absolute;
+    left: 39%;
+    z-index: 29;
+    top: 52% !important;
+  }
 }
 
 @media only screen and (max-width: 1400px) {
@@ -241,9 +247,9 @@
   }
   #btIniciar {
     position: absolute;
-    left: 37%;
+    left: 42%;
     z-index: 29;
-    top: 48% !important;
+    top: 54% !important;
   }
 }
 
@@ -255,6 +261,12 @@
   .imgCentro {
     margin-top: 5%;
   }
+  #btIniciar {
+    position: absolute;
+    left: 39%;
+    z-index: 29;
+    top: 54% !important;
+}
 }
 
 @media only screen and (max-width: 1024px) {
@@ -320,7 +332,7 @@
     position: absolute;
     left: 20%;
     z-index: 29;
-    top: 51% !important;
+    top: 55% !important;
   }
   .img-capa {
     left: 0%;
@@ -344,7 +356,7 @@
     position: absolute;
     left: 20%;
     z-index: 29;
-    top: 54% !important;
+    top: 59% !important;
   }
 }
 

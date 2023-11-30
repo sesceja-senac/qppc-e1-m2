@@ -12,20 +12,28 @@
 
 #btIniciar {
   position: absolute;
-  left: 41%;
+  left: 23%;
   z-index: 29;
-  top: 50% !important;
+  top: 62% !important;
 }
 #btIniciar:hover {
   transform: scale(1.1);
 }
 
 .img-capa {
-  left: 0%;
-  top: 42%;
-  width: 100%;
+  right: 0%;
+  top: 26%;
+  width: 50%;
   position: absolute;
 }
+
+.img-titulo {
+  left: 12%;
+  top: 35%;
+  width: 31%;
+  position: absolute;
+}
+
 
 #videoplay {
   width: 200px;
@@ -222,26 +230,26 @@
 
 @media only screen and (max-width: 1440px) {
   .img-capa {
-    left: 0%;
-    top: 54%;
-  }
+    left: 50%;
+    top: 33.5%;
+}
 
   .imgCentro {
     margin-top: 7%;
   }
   #btIniciar {
     position: absolute;
-    left: 39%;
+    left: 21%;
     z-index: 29;
-    top: 52% !important;
-  }
+    top: 56% !important;
+}
 }
 
 @media only screen and (max-width: 1400px) {
   .img-capa {
-    left: 0%;
-    top: 62%;
-  }
+    left: 50%;
+    top: 44.5%;
+}
   .imgCentro {
     margin-top: 14%;
   }
@@ -249,23 +257,43 @@
     position: absolute;
     left: 42%;
     z-index: 29;
-    top: 54% !important;
-  }
+    top: 50% !important;
+}
+  .img-titulo {
+    left: 33%;
+    top: 27%;
+    width: 31%;
+    position: absolute;
+}
+#titulo {
+  position: absolute;
+  left: 37%;
+  margin-top: 8%;
+  color: #fff;
+  z-index: 10;
+}
+
 }
 
 @media only screen and (max-width: 1366px) {
   .img-capa {
-    left: 0%;
-    top: 50%;
-  }
+    left: 50%;
+    top: 26%;
+}
   .imgCentro {
     margin-top: 5%;
   }
   #btIniciar {
     position: absolute;
-    left: 39%;
+    left: 28%;
     z-index: 29;
-    top: 54% !important;
+    top: 57% !important;
+}
+.img-titulo {
+  left: 18%;
+  top: 34%;
+  width: 31%;
+  position: absolute;
 }
 }
 
@@ -330,13 +358,13 @@
 
   #btIniciar {
     position: absolute;
-    left: 20%;
+    left: 40%;
     z-index: 29;
-    top: 55% !important;
-  }
+    top: 42% !important;
+}
   .img-capa {
-    left: 0%;
-    top: 79%;
+    right: 0%;
+    top: 42%;
     width: 100%;
     position: absolute;
   }
@@ -349,18 +377,46 @@
   #logo {
     top: 2%;
   }
+  #titulo {
+    top: 14%;
+    left: 36%;
+    scale: 0.8;
+}
+.img-titulo {
+  left: 27%;
+  top: 24%;
+  width: 51%;
+  position: absolute;
+}
 }
 
 @media only screen and (max-width: 768px) {
   #btIniciar {
     position: absolute;
-    left: 20%;
+    left: 41%;
     z-index: 29;
-    top: 59% !important;
-  }
+    top: 37% !important;
+}
+  .img-capa {
+    left: 0%;
+    top: 37%;
+    width: 100%;
+    position: absolute;
+}
+#titulo {
+  top: 9%;
+  left: 36%;
+  scale: 0.8;
+}
+.img-titulo {
+  left: 28%;
+  top: 20%;
+  width: 51%;
+  position: absolute;
+}
 }
 
-@media only screen and (max-width: 480px) {
+@media screen and (max-width: 480px) {
   .imgCentro {
     margin-top: 42% !important;
   }
@@ -381,8 +437,19 @@
     position: absolute;
     left: 26%;
     z-index: 29;
-    top: 70% !important;
+    top: 65% !important;
   }
+  .img-titulo {
+    left: 12%;
+    top: 35%;
+    width: 76%;
+    position: absolute;
+}
+#titulo {
+  top: 15%;
+  left: 23%;
+  scale: 0.8;
+}
 }
 
 /* @media only screen  and (max-width:1450px) {

@@ -255,15 +255,24 @@ footer li a:visited {
 
 
 
-.bg-podcast {
-  background: url('../theme/assets/podcast-bg.png') no-repeat;
-  max-width: 839px;
-  height: 359px;
+.bg-podcast1 {
+  background: url('../theme/assets/reportagem.png') no-repeat;
+  max-width: 346px;
+  height: 277px;
   background-size: contain;
   bottom: 3%;
   margin: auto;
-}
 
+}
+.bg-podcast2 {
+  background: url('../theme/assets/reportagem_2.png') no-repeat;
+  max-width: 346px;
+  height: 277px;
+  background-size: contain;
+  bottom: 3%;
+  margin: auto;
+
+}
 .sesc-audio-player .botoes {
   margin-left: 18%;
   margin-top: 31%;
@@ -967,7 +976,7 @@ figure figcaption {
 @media screen and (max-width:480px) {
   header.sesc {
     background-image: url(../img/cabecalho/cabecalho_mob.png);
-    max-width: 480px !important;
+    max-width: 500px !important;
   }
 
   .carousel-indicators {
@@ -995,11 +1004,18 @@ figure figcaption {
     background-color: #007981;
     border-radius: 10px;
   }
+  .sesc-audio-player {
+    background-color: transparent;
+    color: white;
+    padding: 8px 20px;
+    line-height: 0;
+    margin: 36% 0 !important;
+}
 }
 
 @media screen and (max-width:375px) {
   header.sesc {
     background-image: url(../img/cabecalho/cabecalho_mob.png);
-    max-width: 380px !important;
+    max-width: 420px !important;
   }
 }

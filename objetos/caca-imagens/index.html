@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="fa/css/all.min.css">
+    <link rel="stylesheet" href="css/layout.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TOP UC6 - Quiz</title>
+
+    <!-- Trocar -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Archivo+Narrow:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+</head>
+<body onLoad="Javascript:document.getElementById('sncloader').style.display='none';">
+    <div id='sncloader' class='over-loader'><div class="over-cell"><div id="sncload"></div></div></div>
+    <!-- <header id="topo" class="senac no-print position-relative">
+        <div class="header-tecnicos container">
+        	  <h1 id="nome-curso">Técnico em Óptica</h1>
+            <div id="logo-senac"><img src="img/logo-senac.png" alt="logo do senac"></div>
+        </div>
+        <div id="sombra"></div>
+    </header> -->
+<!-- <header>
+    <p>Vamos testar seus conhecimentos?</p>
+</header> -->
+    <div id="top-quiz">
+        <div id="top-slides">
+        </div>
+        <div class="top-slide-final mt-5" style="display:none;">
+            <div class="pergunta pt-5 pb-5">
+                <p>O número de respostas corretas foi de:</p>
+                <p id="contador"><span id="acertos">0</span>/<span id="total">0</span></p>
+                <div class="mensagemfinal">
+                    
+                </div>
+                <nav class="text-center pt-4">
+                    <button class="bto-nav-reiniciar" type="button"><i class="fa-solid fa-arrows-rotate"></i> Reiniciar</button>
+                </nav>
+            </div>
+        </div>
+        <nav id="navegacao" style="display: none;"> <!-- Sobe e desce quando necessário alem de aparecer e desaparecer -->
+            <button class="bto-nav" type="button">Avançar <i class="fa-solid fa-arrow-right"></i></button>
+        </nav>
+    </div>
+<hr class="mt-5">
+<footer class="text-center mt-5">
+    <button type="button" class="bto-nav" data-bs-toggle="modal" data-bs-target="#ossimbolos"><i class="fa-regular fa-circle-question"></i> Dúvidas sobres os ícones?</button>
+</footer>
+    
+<!-- Modal -->
+<div class="modal fade" id="intro" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="staticBackdropLabel">Bem-vindo!</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            <p>Nesta atividade, você vai explorar a interseção entre a diversidade, a democratização e a acessibilidade para eventos culturais. A seguir, você encontrará uma série de símbolos relacionados a diferentes tipos de acessibilidade que podemos encontrar em eventos culturais. Assim, você deve relacionar cada imagem/símbolo ao texto correspondente que descreve o tipo de acessibilidade. Examine cuidadosamente as imagens, leia os textos associados a elas e associe cada uma à descrição que melhor a representa.  </p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+ 
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Modal -->
+<div class="modal fade" id="ossimbolos" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="staticBackdropLabel">Lista de símbolos e seus nomes</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            <div class="row">
+                <div class="col-6 col-4">
+                    <img class="img-fluid d-block m-auto" style="max-width: 100px;" src="img/deficiente-visual.png" alt="A figura, branca em fundo azul, tipo pessoa. A figura simboliza uma pessoa em pé, dentro do quadro, com uma bengala para deficiência visual.">
+                    <p class="text-center">Símbolo de acessibilidade para deficiência visual</p>
+                </div>
+                <div class="col-6 col-4">
+                    <img class="img-fluid d-block m-auto" style="max-width: 100px;" src="img/ad.png" alt="A figura, branca em fundo azul, apresenta as letras A e D com três parênteses. A representação do símbolo consiste em pictograma (com três ondas estilizadas, representando o som) branco sobre um fundo azul.">
+                    <p class="text-center">Símbolo de acessibilidade para audiodescrição</p>
+                </div>
+                <div class="col-6 col-4">
+                    <img class="img-fluid d-block m-auto" style="max-width: 100px;" src="img/cadeirante.png" alt="A figura, branca em fundo azul, simboliza uma pessoa sentada em uma cadeira de rodas.">
+                    <p class="text-center">Símbolo de acessibilidade para portadores de deficiência física</p>
+                </div>
+                <div class="col-6 col-4">
+                    <img class="img-fluid d-block m-auto" style="max-width: 100px;" src="img/deficiente-auditivo.png" alt="A figura, branca em fundo azul, simboliza uma orelha atravessada diagonalmente por uma faixa branca.">
+                    <p class="text-center">Símbolo internacional da surdez e perda auditiva</p>
+                </div>
+                <div class="col-6 col-4">
+                    <img class="img-fluid d-block m-auto" style="max-width: 100px;" src="img/acessibilidade-onu.png" alt="A figura simétrica conectada por quatro pontos a um círculo, representa a harmonia entre o ser humano e a sociedade, e com os braços abertos, simboliza simbolizam a inclusão de pessoas com todas as habilidades, em todos os lugares.">
+                    <p class="text-center">Símbolo universal de acessibilidade da Organização das Nações Unidas</p>
+                </div>
+                <div class="col-6 col-4">
+                    <img class="img-fluid d-block m-auto" style="max-width: 100px;" src="img/libras.png" alt="A figura, branca em fundo azul, representa duas mãos, com o sinal próprio de LIBRAS Libras.">
+                    <p class="text-center">Símbolo de Libras</p>
+                </div>
+            </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+ 
+        </div>
+      </div>
+    </div>
+  </div>
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <script src="js/bootstrap.bundle.js"></script>
+    <script src="js/perguntas.js"></script>
+    <script src="js/quiz.js"></script>
+    <script>
+        $(function (){
+            $("#intro").modal("show")
+        })
+
+    </script>
+</body>
+</html>

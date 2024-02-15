@@ -251,8 +251,46 @@ footer li a:visited {
 
 /* fim da tooltip em imagem */
 
+ .caixa-1 {
+ margin: 1em auto;
+}
+.caixa-1{
+  border-style: solid;
+  border-width: 2px;
+  color: #00838d;
+  padding: 30px;
 
+}
 
+.caixa-1.icone-1 {
+  padding: 30px;
+  padding-left: 75px;
+  position: relative;
+  margin-left: 80px;
+  margin-right: 80px;
+  margin-top: 60px;
+  margin-bottom: 30px;
+  background-color: #fff;
+}
+
+.icone-1::before{
+  display: block;
+  content: "";
+  width: 83px;
+  height: 115px;
+  background-color: transparent;
+  position: absolute;
+  top:-20px;
+  left: -30px;   
+  background-repeat: no-repeat;  
+}
+
+.icone-1.praticar::before{
+  background-image: url(../img/ico_vamospraticar2.png);
+  left: -70px;
+  width: 114px;
+  height: 127px;
+}
 
 
 .bg-podcast1 {
@@ -1011,6 +1049,16 @@ figure figcaption {
     line-height: 0;
     margin: 36% 0 !important;
 }
+.caixa-1.icone-1.praticar {
+  padding-left: 15px;
+  padding-top: 100px;
+  margin: auto;
+}
+.icone-1.praticar::before {
+  left: -37px;
+  width: 114px;
+  height: 127px;
+}
 }
 
 @media screen and (max-width:375px) {
@@ -1018,4 +1066,11 @@ figure figcaption {
     background-image: url(../img/cabecalho/cabecalho_mob.png);
     max-width: 420px !important;
   }
+  .caixa-1.icone-1.praticar {
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 100px;
+    margin: auto;
+}
+.bto-objeto1 img{scale: 0.8;}
 }
